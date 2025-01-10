@@ -1,7 +1,4 @@
 # avr-test-global-asm
-```
-git clone 
-```
 
 ## bin crate: avr-test-bin-jmp
 ```
