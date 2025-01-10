@@ -1,5 +1,5 @@
 [build]
-target = "./avr-specs/avr-atmega328p.json"
+target = "../avr-specs/avr-atmega328p.json"
 # target = "/home/rust/rust/embedded/avr/avr-specs/avr-atmega328p.json"
 
 [target.avr-atmega328p]
