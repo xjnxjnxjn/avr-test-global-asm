@@ -1,1 +1,12 @@
+[build]
+target = "../avr-specs/avr-atmega328p.json"
 
+[target.avr-atmega328p]
+rustflags = [
+    #
+    "-Clink-arg=-nostartfiles",
+    # "-Ctarget-cpu=atmega328p",
+]
+
+# [unstable]
+# build-std = ["core"]
